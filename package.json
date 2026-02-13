@@ -1,0 +1,15 @@
+{
+    "name": "candidate-ms",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev:api": "npm run dev --workspace=api",
+        "dev:web": "npm run dev --workspace=web"
+    },
+    "dependencies": {
+        "zod": "^4.3.6"
+    }
+}
