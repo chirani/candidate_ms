@@ -1,4 +1,4 @@
-import { CreateCandidateDto } from "@candidate-ms/shared/candidate";
+import type { CreateCandidateDto } from "@candidate-ms/shared/candidate";
 
 function App() {
   const example: CreateCandidateDto = {
