@@ -1,4 +1,5 @@
 {
+    "type": "module",
     "name": "@candidate-ms/shared",
     "version": "1.0.0",
     "main": "src/index.ts",
